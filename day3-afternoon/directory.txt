@@ -1,0 +1,8 @@
+total 1570952
+-rw-r--r--  1 cmdb  staff  182276780  2 Sep 15:59 BDGP6.Ensembl.81.gtf
+-rw-r--r--  1 cmdb  staff       8602  2 Sep 17:18 K27me3.bed
+-rw-r--r--  1 cmdb  staff      75948  2 Sep 17:18 K4me3.bed
+-rw-r--r--  1 cmdb  staff       5846  2 Sep 17:18 K9me3.bed
+-rw-r--r--  1 cmdb  staff  616564462 31 Aug 16:02 SRR072893.bam
+-rw-r--r--  1 cmdb  staff     239600  2 Sep 17:24 SRR072893.bam.bai
+-rw-r--r--  1 cmdb  staff          0  2 Sep 17:30 directory.txt
