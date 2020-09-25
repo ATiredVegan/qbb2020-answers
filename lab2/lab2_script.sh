@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #make index file
+bwa index sacCer3.fa 
+#makes SAM file for each fastq
 for SAMPLE in *.fastq 
 do 
 	bwa mem -R "@RG\tID:${SAMPLE%.fastq}\tSM:${SAMPLE%.fastq}" sacCer3.fa $SAMPLE >${SAMPLE%.fastq}.sam
