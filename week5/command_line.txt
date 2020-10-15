@@ -1,0 +1,8 @@
+#top 100 markers
+sort -r -h -k 9 CTCF_ER4_peaks.narrowPeak |head-n 100 >top_ER4.txt
+#makes a fasta with peaked regions
+bedtools getfasta -fi chr19.fa -bed  top_ER4.txt
+#generates motif 
+meme-chip  -meme-maxw 20 -oc meme_data top_er4_peaks.fa
+#compares to db
+tomtom meme_data/combined.meme motif_databases/JASPAR/JASPAR_CORE_2016.meme
