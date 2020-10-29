@@ -1,0 +1,16 @@
+List of command line commands 
+#rearranging file folders so that the bismark genome preparation works. All commands are in week6 folder 
+mkdir chr6
+mv chr6.fa chr6 
+bismark_genome_preparation chr6 
+#Running the methylation command 
+bismark chr6 --fastq -1 E4.0ICM_1.fastq -2 E4.0ICM_2.fastq
+bismakr chr6 --fastq -1 Epi5.5_1.fastq -2 Epi5.5_2.fastq 
+#sort and index bam files 
+samtools sort E4.0ICM_1.chr6_bismark_bt2_PE.bam> E4.0ICM_sorted.bam
+samtools sort E5.5Epi_1.chr6_bismark_bt2_PE.bam> E5.5Epi_sorted.bam
+samtools index E4.0ICM_sorted.bam
+samtools index E5.5Epi_sorted.bam
+#make bedgraph
+bismark_methylation_extractor --bedgraph -comprehensive E4.0ICM_sorted.bam
+bismark_methylation_extractor --bedgraph -comprehensive E5.5Epi_sorted.bam
