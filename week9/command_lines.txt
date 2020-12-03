@@ -1,0 +1,12 @@
+#Command Line 
+
+hifive fends mm9.hdf5 --binned 100000 -L genome/mm9.len
+hifive hic-data -X data/WT_100kb/raw_\*.mat mm9.hdf5 hic_data.txt
+hifive hic-project -f 25 -n 25 -j 100000 hic_data.txt hic_project.txt
+hifive hic-normalize express output3.txt
+#Grepping 
+
+grep - hic_comp.bed > comp_b.bed
+grep -v - hic_comp.bed>comp_a.bed
+bedtools intersect -a data/WT_fpkm.bed -b comp_a.bed -wb >a_compartment_genes.bed
+bedtools intersect -a data/WT_fpkm.bed -b comp_b.bed -wb >b_compartment_genes.bed
