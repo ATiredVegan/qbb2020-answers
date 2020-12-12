@@ -1,0 +1,500 @@
+   42  git commit -m "Lab 2 with image, vcf and code"
+   43  git push
+   44  git pull 
+   45  git status
+   46  cd qbb2020-answers
+   47  cd lab2
+   48  git status
+   49  git commit
+   50  cd qbb2020-answers
+   51  cd lab2
+   52  git status
+   53  git push
+   54  git pull
+   55  git status
+   56  git add lab2plots.ipynb
+   57  cd ./
+   58  git add README.md
+   59  cd day2-night
+   60  cd ./
+   61  cd ../
+   62  cd day2-night
+   63  git add day2-homework
+   64  git add day2-homework.ipynb 
+   65  git status
+   66  cd ../
+   67  git restore README.md
+   68  git status
+   69  git commit -m "Fix merge"
+   70  git push
+   71  cd qbb2020-answers
+   72  cd lab2
+   73  jupyter Notebook
+   74  cd qbb2020-answers/
+   75  cd lab2
+   76  git add yeast4panel.png
+   77  git commit -m "Image didn't save properly, corrected image"
+   78  git push
+   79  jupyter notebook
+   80  cd qbb2020-answers/
+   81  mkdir day3
+   82  https://raw.githubusercontent.com/bxlab/qbb2020/master/week3/gwas-empty.ipynb
+   83  wget https://raw.githubusercontent.com/bxlab/qbb2020/master/week3/gwas-empty.ipynb
+   84  wget https://raw.githubusercontent.com/bxlab/qbb2020/master/week3/gwas.ipynb
+   85  cd lab2
+   86  git add lab2_script.sh
+   87  git commit -m "added step 1 to script"
+   88  git push
+   89  cd ../
+   90  cd lab3
+   91  conda create -n week3_env
+   92  conda activate week3_env
+   93  conda install plin -y
+   94  conda install plink -y
+   95  plink 
+   96  Jupyter Notebook
+   97  Jupyter notebook
+   98  conda activate week3
+   99  conda activate week3_env
+  100  Jupyter Notebook
+  101  jupyter Notebook
+  102  Jupyter notebook
+  103  jupyter notebook
+  104  jupyter notebook
+  105  conda activate week3_env
+  106  conda install ipykernel
+  107  jupyter notebook
+  108  Jupyter notebook
+  109  con
+  110  conda activate week3_env
+  111  conda install jupyter
+  112  jupyter notebook
+  113  conda install plink
+  114  jupyter notebook
+  115  cd qbb2020-answers
+  116  mkdir lab3
+  117  cd lab3
+  118  cd ../
+  119  cd lab3homework
+  120  mkdir lab3homework
+  121  conda activate week3-env
+  122  conda info --envs
+  123  conda week3_env
+  124  conda activate week3_env
+  125  jupyter notebook
+  126  cd qbb2020-answers
+  127  cd lab3homework
+  128  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  129  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  130  cd ../
+  131  cd lab3
+  132  less -S genotypes.vcf
+  133  cd ../
+  134  cd lab3homework
+  135  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  136  jupyter notebook
+  137  cd qbb2020-answers
+  138  cd lab3homework
+  139  less -S BYxRM_PhenoData.txt 
+  140  less -S BYxRM_PhenoData.txt 
+  141  less -S BYxRM_PhenoData.txt 
+  142  less -S phenotype_fixed.txt
+  143  less -S plink.assoc.linear 
+  144  less -S phenotype_fixed.txt
+  145  less -S phenotype_fixed.txt
+  146  less -S phenotype_fixed.txt
+  147  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  148  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  149  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  150  less -S BYxRM_PhenoData.txt 
+  151  less -S BYxRM_PhenoData.txt 
+  152  less -S BYxRM_segs_saccer3.bam.simplified.vcf
+  153  less -S BYxRM_PhenoData.txt 
+  154  git status
+  155  git add *.png
+  156  git status
+  157  git add lab3python.ipynb 
+  158  git commit -m "Lab 3 homework"
+  159  git push
+  160  Jupyter notebook
+  161  cd qbb2020-answers
+  162  cd lab4
+  163  grep -c ">" seqdump.txt 
+  164  python 
+  165  cd qbb2020-answers
+  166  cd lab4
+  167  transeq seqdump.txt 
+  168  maftt nc_001563.pep > protein_alignment.txt
+  169  mafft nc_001563.pep > protein_alignment.txt
+  170  less -S nt_alignment.fa
+  171  less -S nt_alignment.fa
+  172  less -S nt_alignmnet.fa 
+  173  less -S nt_alignmnet.fa 
+  174  transeq seqdump.txt 
+  175  mafft all_prots.pep >nt_alignment.fa
+  176  mafft all_prots.pep >prot_alignmnet.txt
+  177  grep -c "R" seqdump.txt
+  178  grep -c "r" seqdump.txt
+  179  conda install emboss mafft
+  180  Jupyter Notebook
+  181  cd qbb2020-answers
+  182  cd lab4
+  183  transeq seqdump.fa 
+  184  transeq seqdump.txt
+  185  cd qbb2020-answers
+  186  git status
+  187  cd lab4
+  188  git add lab4script.ipynb 
+  189  git add blast_proof.png 
+  190  git commit -m "Lab 4 notebook"
+  191  git push
+  192  Jupyter notebook
+  193  Jupyter notebook
+  194  samtools
+  195  conda activate day3
+  196  samtools
+  197  conda activate cdmb
+  198  conda info --envs
+  199  conda activate cmdb
+  200  conda install bowtie2
+  201  conda install samtools bedtools macs2 meme
+  202  cd qbb2020answers
+  203  cd qbb2020-answers/
+  204  mkdir week4
+  205  cd week4
+  206  cd ../
+  207  mkdir week5
+  208  cd week5
+  209  wget https://www.ebi.ac.uk/~emily/Online%20courses/NGS/ChIP-seq.zip
+  210  ls
+  211  cd ChIP-seq
+  212  bowtie2-build bowtie_index/mm10.fa bowtie_index/mm10
+  213  for sample in Oct4 gfp; do   bowtie2 -x bowtie_index/mm10 -U ${sample}.fastq -S ${sample}.sam -p 6;   samtools view -bSo ${sample}.bam ${sample}.sam;   samtools sort ${sample}.bam -o ${sample}.sorted.bam;   samtools index ${sample}.sorted.bam; done
+  214  macs2 callpeak -t Oct4.bam -c gfp.bam --format=BAM --name=Oct4 --gsize=138000000 --tsize=26
+  215  cd ../
+  216  bowtie2-build chr19.fa
+  217  bowtie2-build chr19.fa chr19
+  218  for sample in g1e; do 
+  219  for sample in g1e; do   bowtie2 -x bowtie_index/mm10 -U ${sample}.fastq -S ${sample}.sam -p 6;   samtools view -bSo ${sample}.bam ${sample}.sam;   samtools sort ${sample}.bam -o ${sample}.sorted.bam;   samtools index ${sample}.sorted.bam; done
+  220  for sample in input_G1E CTCF_G1E input_ER4 CTCF_ER4; do    bowtie2 -x bowtie_index/mm10 -U ${sample}.fastq -S ${sample}.sam -p 6;   samtools view -bSo ${sample}.bam ${sample}.sam;   samtools sort ${sample}.bam -o ${sample}.sorted.bam;   samtools index ${sample}.sorted.bam
+  221  ./ lab5script.sh 
+  222  bash lab5script.sh
+  223  bash lab5script.sh
+  224  bash lab5script.sh
+  225  bash lab5script.sh
+  226  bash lab5script.sh
+  227  bash lab5script.sh
+  228  bash lab5script.sh
+  229  bash lab5script.sh
+  230  bash lab5script.sh
+  231  samtools
+  232  bash lab5script.sh
+  233  bash lab5script.sh
+  234  bash lab5script.sh
+  235  bash lab5script.sh
+  236  bash lab5script.sh
+  237  bash lab5script.sh
+  238  bash lab5script.sh
+  239  bash lab5script.sh
+  240  bash lab5script.sh
+  241  bash lab5script.sh
+  242  bash lab5script.sh
+  243  bash lab5script.sh
+  244  bash lab5script.sh
+  245  bash lab5script.sh
+  246  grep 'intron' Mus_musculus.GRCm38.94_features.bed 
+  247  bash lab5script.sh
+  248  bash lab5script.sh
+  249  bash lab5script.sh
+  250  conda create -n week6 -c bioconda -c anaconda fastqc bismark samtools bowtie2 igv
+  251  conda activate week6
+  252  cd qbb2020-answers
+  253  mkdir week6
+  254  cd week6
+  255  ls
+  256  less -s SRR3083926_1.chr6.fastq 
+  257  less -s GSE76505_FPKM_replicates.txt 
+  258  bismark_genome_preparation --help
+  259  bismark_genome_preparation chr6.fa 
+  260  bismark_genome_preparation ./chr6.fa 
+  261  mkdir chr6.fa
+  262  mkdir chr6
+  263  rm chr.fa chr6
+  264  mv chr.fa chr6
+  265  mv chr6.fa chr6
+  266  ls -R
+  267  bismark_genome_preparation chr6 
+  268  bismark --help
+  269  bismark --fastq chr6 -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  270  bismark --fastq . chr6 -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  271  bismark --fastq . chr6/ -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  272  bismark --fastq . chr6/Bisulfite_Genome/ -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  273  bismark --fastq . chr6/Bisulfite_Genome/ -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  274  bismark --fastq .  -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr.fastq,E5.5Epi_2.chr6.fastq
+  275  bismark --fastq .  -1 E4.0ICM_1.chr6.fastq,E5.5Epi_1.chr6.fastq -2 E4.0ICM_2.chr6.fastq,E5.5Epi_2.chr6.fastq
+  276  conda install meme -y
+  277  cd qbb2020-answers
+  278  cd week5
+  279  sort -r -k 9 CTCF_ER4_peaks.narrowPeak |head -n 100
+  280  sort -r -h  -k 9 CTCF_ER4_peaks.narrowPeak |head -n 100
+  281  sort -r -h -k 9 CTCF_ER4_peaks.narrowPeak |head -n 100
+  282  sort -r -h -k 9 CTCF_ER4_peaks.narrowPeak |head -n 100 >top_ER4.txt
+  283  meme-chip --help
+  284  meme-chip top_ER4.txt 
+  285  meme-chip -db top_ER4.txt 
+  286  meme-chip top_ER4.txt -mem-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme
+  287  meme-chip top_ER4.txt -meme-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme
+  288  dreme-py3 meme-chip top_ER4.txt -meme-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme
+  289  meme-chip  -meme-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme top_ER4.txt 
+  290  dreme-py3
+  291  python2 meme-chip  -meme-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme top_ER4.txt 
+  292  python2 meme-chip  -meme-maxw -oc motifs  top_ER4.txt 
+  293  meme-chip  -meme-maxw 20 -oc motifs.txt  top_ER4.txt 
+  294  bedtools.get_fasta top_ER4.txt 
+  295  bedtools.getfasta top_ER4.txt
+  296  bedtools getfasta -fi chr19.fa -bed  top_ER4.txt
+  297  bedtools getfasta -fi chr19.fa -bed  top_ER4.txt>top_er4_peaks.fa
+  298  meme-chip  -meme-maxw 20 -oc meme_data-db motif_databases/JASPAR/JASPAR_CORE_2016.meme top_er4_peaks.fa 
+  299  meme-chip  -meme-maxw 20 -oc meme_data top_er4_peaks.fa 
+  300  tomtom
+  301  tomtom meme_data/combined.meme motif_databases/JASPAR/JASPAR_CORE_2016.meme
+  302  ceqlogo -i tomtom_out/tomtom.txt 
+  303  ceqlogo -i tomtom_out/tomtom.txt -m MA0139.1 -o logo.png
+  304  ceqlogo -i tomtom_out/tomtom.txt 1 -o logo.png
+  305  ceqlogo -i tomtom_out/tomtom.txt -m 1 -o logo.png
+  306  ceqlogo -i<1> tomtom_out/tomtom.txt -o toplogol.svg
+  307  ceqlogo -i<1> tomtom_out/tomtom.txt -o toplogol.svg -f svg
+  308  ceqlogo -i1 tomtom_out/tomtom.txt -o toplogol.svg -f svg
+  309  ceqlogo -i tomtom_out/tomtom.txt -m 1 -o toplogol.svg -f svg
+  310  ceqlogo -i tomtom_out/tomtom.txt -m 0 -o toplogol.svg -f svg
+  311  ceqlogo -i tomtom_out/tomtom.txt -m MA0139.1 -o toplogol.svg -f svg
+  312  meme
+  313  ceqlogo -i tomtom_out/tomtom.txt -m MA0139 -o toplogol.svg -f svg
+  314  git status
+  315  git add week5\ graphing\ script.ipynb 
+  316  git add lab5script.sh 
+  317  git add top_motif.png
+  318  git add gained.bed
+  319  git add lost.bed
+  320  git add CTCF_G1E_summits.bed 
+  321  git add CTCF_ER4_summits.bed
+  322  git add command_line.txt 
+  323  git commit -m "week 5 stuff" 
+  324  git push
+  325  Jupyter Notebook
+  326  jupyter notebook
+  327  jupyter notebook
+  328  Jupyter
+  329  jupyter notebook
+  330  conda 
+  331  conda install scanpy
+  332  conda install leidenalg
+  333  conda install python-igraph
+  334  Jupyter Notebook
+  335  Jupyter
+  336  Jupyter Notebook
+  337  Jupyter Notebook
+  338  cd qbb-2020
+  339  cd qbb2020-answers/
+  340  cd week8
+  341  git add lab8_scRNAseq.ipynb 
+  342  git commit -m "SC-RNAseq lab 8, Happy Thanksgiving"
+  343  git push
+  344  Jupyter
+  345  Jupyter Notebook
+  346  conda create -n hifive hifive python=2 matplotlib bedtools pyBigWig
+  347  conda activate hifive
+  348  cd qbb20230-answers
+  349  cd qbb2020-answers/
+  350  mkdir week9
+  351  cd week9
+  352  wget https://bx.bio.jhu.edu/data/cmdb-lab/3DGenomeData.tar.gz
+  353  tar xzf 3DGenomeData.tar.gz 
+  354  hifive --help
+  355  hifive fend --help
+  356  hifive fends --help
+  357  hifive fends --binned -g genome/mm9.len
+  358  hifive fends --binned 100000 -g genome/mm9.len
+  359  hifive fends mm9.hdf5 --binned 100000 -g genome/mm9.len 
+  360  hifive fends mm9.hdf5 --binned 100000 -L genome/mm9.len 
+  361  hifive hic-data --help
+  362  hifive hic-data interaction_reads mm9.hdf5 -M data/WT_100kb/raw_\*.mat
+  363  hifive mm9.hdf5 -M data/WT_100kb/raw_\*.mat hic_data.txt mm9.hdf5 
+  364  hifive mm9.hdf5 -M data/WT_100kb/raw_\*.mat hic_data.txt fends  mm9.hdf5 
+  365  hifive hic-data interaction_reads mm9.hdf5 -M data/WT_100kb/raw_\*.mat
+  366  hifive hic-data data/WT_100kb/raw_\*.mat
+  367  hifive hic-data -M data/WT_100kb/raw_\*.mat mm9.hdf5 hic_data_output.txt 
+  368  hifive hic-data mm9.hdf5 output.txt  -M data/WT_100kb/raw_\*.mat 
+  369  hifive hic-data mm9.hdf5 output.txt  -matrix data/WT_100kb/raw_\*.mat 
+  370  hifive hic-data mm9.hdf5 output.txt --mat data/WT_100kb/raw_\*.mat 
+  371  conda activate hifive
+  372  hifive hic-data --help
+  373  cd qbb2020-answers
+  374  cd week9
+  375  hifive hic-data -M data/WT_100kb/raw_\*.mat mm9.hdf5 output.txt
+  376  hifive hic-data (-M data/WT_100kb/raw_\*.mat) mm9.hdf5 output.txt
+  377  hifive hic-data -M data/WT_100kb/raw_\*.mat) mm9.hdf5 output.txt
+  378  hifive hic-data -M data/WT_100kb/raw_\*.mat mm9.hdf5 output.txt
+  379  hifive hic-data -X data/WT_100kb/raw_\*.mat mm9.hdf5 output.txt
+  380  hifive fends --help
+  381  hifive fends -L genome/mm9.len --binned 100000 mm9.hdff
+  382  hifive fends -L genome/mm9.len --binned 100000 mm9.hdf5
+  383  hifive hic-data -X data/WT_100kb/raw_\*.mat mm9.hdf5 output.txt
+  384  hifive hic-data -X data/WT_100kb/raw_\*.mat mm9.hdf5 hic_data.txt
+  385  hifive hic-project -f 25 on 25 -j 100000 hic_data.txt hic_project.txt
+  386  hifive hic-project -f 25 -n 25 -j 100000 hic_data.txt hic_project.txt
+  387  hifive hic-normalize -f 25 -w csi express hic_project.txt
+  388  hifive hic-normalize --help
+  389  hifive hic-normalize express -f 25 -w cis hic_project.txt 
+  390  python2 week10_script.py 
+  391  python2 week10_script.py 
+  392  python2 week9_script.py 
+  393  python2 week9_script.py 
+  394  python2 week9_script.py 
+  395  python2 week9_script.py 
+  396  python2 week9_script.py 
+  397  python2 week9_script.py 
+  398  python2 week9_script.py 
+  399  python2 week9_script.py 
+  400  python2 week9_script.py 
+  401  python2 week9_script.py 
+  402  python2 week9_script.py 
+  403  python2 week9_script.py 
+  404  conda import seaborn
+  405  conda install seaborn
+  406  python2 week9_script.py 
+  407  python2 week9_script.py 
+  408  python2 week9_script.py 
+  409  python2 week9_script.py 
+  410  conda activate hifive
+  411  cd qbb2020-answers/
+  412  cd week9
+  413  python2 week9_script.py 
+  414  python2 week9_script.py 
+  415  python2 week9_script.py 
+  416  python2 week9_script.py 
+  417  python2 week9_script.py 
+  418  python2 week9_script.py 
+  419  python2 week9_script.py 
+  420  python2 week9_script.py 
+  421  python2 week9_script.py 
+  422  python2 week9_script.py 
+  423  python2 week9_script.py 
+  424  python2 week9_script.py 
+  425  python2 week9_script.py 
+  426  python2 week9_script.py 
+  427  python2 week9_script.py 
+  428  python2 week9_script.py 
+  429  sort -k 4 hic_comp.bed 
+  430  grep - hic_comp.bed 
+  431  grep - hic_comp.bed > comp_a.bed
+  432  grep -v - hic_comp.bed>comp_b.bed
+  433  python2 week9_script.py 
+  434  python2 week9_script.py 
+  435  python2 week9_script.py 
+  436  python2 week9_script.py 
+  437  conda install bedtools
+  438  conda update -n base conda
+  439  bedtools intersect data/WT_fpkm.bed hic_comp.bed
+  440  bedtools intersect -a  data/WT_fpkm.bed -b hic_comp.bed
+  441  bedtools intersect -a  data/WT_fpkm.bed -b comp_a.bed
+  442  bedtools intersect -a  data/WT_fpkm.bed -b comp_b.bed
+  443  python2 week9_script.py 
+  444  python2 week9_script.py 
+  445  python2 week9_script.py 
+  446  python2 week9_script.py 
+  447  python2 week9_script.py 
+  448  bedtools intersect -a  data/WT_fpkm.bed -b comp_a.bed>a_compartment_genes.bed
+  449  bedtools intersect -a  data/WT_fpkm.bed -b comp_b.bed>b_compartment_genes.bed
+  450  python2 week9_script.py 
+  451  python2 week9_script.py 
+  452  python2 week9_script.py 
+  453  python2 week9_script.py 
+  454  python2 week9_script.py 
+  455  ktImportText
+  456  Krona
+  457  Krona-Tools
+  458  cd qbb2020-answers
+  459  cd week10
+  460  cd week13_data
+  461  cd KRAKEN
+  462  less -s SRR492183.kraken 
+  463  less -s assembly.kraken
+  464  kronatools --help
+  465  curl -LOk https://github.com/marbl/Krona/releases/download/v2.7/KronaTools-2.7.tar
+  466  tar xvf KronaTools-2.7.tar
+  467  cd KronaTools-2.7
+  468  ./install.pl
+  469  ktImportText
+  470  cd ../
+  471  ktImportText SRR492183.kraken
+  472  conda import sequana
+  473  conda install sequana
+  474  Jupyter
+  475  Jupyter Notebook
+  476  cd qbb2020-answers
+  477  cd week10
+  478  conda create -n metabat -c bioconda metabat2
+  479  conda create --yes -n krona krona
+  480  conda activate krona
+  481   rm -rf ~/miniconda3/envs/ngs/opt/krona/taxonomy
+  482  mkdir -p ~/krona/taxonomy
+  483  ln -s ~/krona/taxonomy ~/miniconda3/envs/ngs/opt/krona/taxonomy
+  484  ktUpdateTaxonomy.sh ~/krona/taxonomy
+  485  ktImportTaxonomy --help
+  486  ktImportTaxonomy 
+  487  ktImportTaxonomy -q 2 -t 3 week13_data/KRAKEN/SRR492183.kraken -o ouptfile.html
+  488  conda create -n krona2
+  489  conda activate krona2
+  490  conda install krona
+  491  ktImportTaxonomy -q 2 -t 3 week13_data/KRAKEN/SRR492183.kraken -o ouptfile.html
+  492  ktUpdateTaxonomy
+  493  ktUpdateTaxonomy.sh
+  494  ktImportTaxonomy -q 2 -t 3 week13_data/KRAKEN/SRR492183.kraken -o ouptfile.html
+  495  ktImportTaxonomy -q 2 -t 3 week13_data/KRAKEN/SRR492186.kraken -o ouptfile.html
+  496  less -S week13_data/KRAKEN/SRR492183.kraken
+  497  less -S week13_data/KRAKEN/assembly.kraken 
+  498  less -S week13_data/assembly.fasta 
+  499  cd qbb2020-answers
+  500  cd week10
+  501  wget https://bx.bio.jhu.edu/data/cmdb-lab/bins.tar
+  502  conda create -n metabat -c bioconda metaba
+  503  cd bins
+  504  less -S bin.1.fa
+  505  conda activate metabat
+  506  conda create -n metabat -c bioconda metabat
+  507  conda create -n metabat -c bioconda metabat2
+  508  conda activate metabat
+  509  cd ../
+  510  cd week13_data
+  511  bwa READS\*.fastq assembly.fasta
+  512  conda activate cmdb
+  513  bwa assembly.fasta READS\*.fastq>*.sam
+  514  bwa index assembly.fasta
+  515  bwa mem assembly.fasta READS\*.fastq>*.sam
+  516  bwa mem assembly.fasta READS/*.fastq>*.sam
+  517  bwa mem assembly.fasta READS/SRR492183_1.fastq READS/SRR492183_2.fastq>Day1.sam 
+  518  bwa mem assembly.fasta READS/SRR492186_1.fastq READS/SRR492186_2.fastq>Day2.sam 
+  519  bwa mem assembly.fasta READS/SRR492188_1.fastq READS/SRR492188_2.fastq>Day3.sam 
+  520  bwa mem assembly.fasta READS/SRR492190_1.fastq READS/SRR492190_2.fastq>Day4.sam 
+  521  bwa mem assembly.fasta READS/SRR492193_1.fastq READS/SRR492193_2.fastq>Day5.sam 
+  522  bwa mem assembly.fasta READS/SRR492194_1.fastq READS/SRR492194_2.fastq>Day6.sam 
+  523  bwa mem assembly.fasta READS/SRR492197_1.fastq READS/SRR492197_2.fastq>Day7.sam 
+  524  for FILENAME in *.sam ; do  samtools sort -o ${FILENAME%.sam}.bam -O bam $FILENAME; done
+  525  for FILENAME in *.sam do samtools sort -o ${FILENAME%.sam}.bam -O bam $FILENAME; 
+  526  bash make_bam.sh 
+  527  runMetaBat.sh assembly.fasta *.bam
+  528  less -S assembly.fasta.depth.txt 
+  529  cd assembly.fasta.metabat-bins-20201205_162000/
+  530  less -S bin.1.fa 
+  531  less -S bin.2.fa 
+  532  less -S bin.1.fa 
+  533  less -S bin.3.fa 
+  534  bash make_bam.sh 
+  535  cd ../
+  536  cd ../
+  537  cd week13_data
+  538  bash make_bam.sh 
+  539  stdout
+  540  /history >commandline.txt
+  541  history> commandline.txt
